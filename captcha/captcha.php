@@ -36,6 +36,7 @@ session_start();
 
 $PATH_this = dirname(__FILE__) . '/';
 define('PATH_site', dirname(dirname(dirname(dirname(dirname(__FILE__))))) . '/');
+define('PATH_thisScript', dirname(dirname(dirname(dirname(dirname(__FILE__))))) . '/index.php');
 
 // print_r($_SERVER);
 $_GET['eID'] = 'captcha';
